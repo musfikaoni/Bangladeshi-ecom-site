@@ -1,0 +1,53 @@
+*{
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    /* background-color: gray; */
+}
+/* header start */
+header {
+    height: 82px;
+    width: 100%;
+    background-color: #00A651;
+}
+.navlogo {
+    height: auto;
+    width: 75%;
+}
+.meenu {
+    margin-left: -40px;
+    font-size: 15px;
+}
+.mn:hover {
+    color: #05d65c !important;
+}
+.inp {
+    padding: 10px;
+    width: 80%;
+    border: 2px dashed rgb(236, 236, 236) ;
+    margin-left: 120px;
+}
+.inpbtn {
+    color: #FFFFFF;
+    margin-left: -40px;
+    font-size: 13px;
+    border: 1px solid #00A651;
+    background-color: #00A651 !important;
+}
+.shico {
+    font-size: larger;
+}
+.ntf {
+    padding: 2px 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.inpbtn:hover {
+    color: #00A651;
+    border: 1px solid #00A651;
+    background-color: #FFFFFF !important;
+} 
+.ltbtn {
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 500px;
+    color: #FFFFFF;
+}
