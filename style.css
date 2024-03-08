@@ -14,16 +14,16 @@ header {
 }
 .meenu {
     margin-left: -40px;
-    font-size: 15px;
+    font-size: 14px;
 }
 .mn:hover {
     color: #05d65c !important;
 }
 .inp {
     padding: 10px;
-    width: 80%;
+    width: 76%;
     border: 2px dashed rgb(236, 236, 236) ;
-    margin-left: 120px;
+    margin-left: 140px;
 }
 .inpbtn {
     color: #FFFFFF;
@@ -34,6 +34,7 @@ header {
 }
 .shico {
     font-size: larger;
+    margin-left: 20px;
 }
 .ntf {
     padding: 2px 5px;
@@ -48,6 +49,23 @@ header {
 .ltbtn {
     margin-left: 50px;
     font-size: 15px;
-    font-weight: 500px;
     color: #FFFFFF;
 }
+.ltbtn:hover {
+    color: #FFFFFF;
+}
+.drop1{
+    padding: 0px 10px;
+    font-size: 15px;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: var(--bs-btn-active-bg);
+    border-color: var(--bs-btn-active-border-color);
+    color: #FFFFFF;
+}
+/* header end */
+/* carousel start */
+.crimg {
+    height: 350px !important;
+}
+/* carousel end */

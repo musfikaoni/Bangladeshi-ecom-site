@@ -16,7 +16,7 @@
 <body>
     <!--header start-->
     <header>
-        <nav class="d-flex container">
+        <nav class="d-flex container fixed-top">
             <div>
                 <img class="mt-4 navlogo" src="Images/naturals-home-1.png" alt="site logo">
             </div>
@@ -50,19 +50,40 @@
             </div>
             <div>
                 <div class="dropdown-center">
-                    <button class="btn dropdown-toggle border-none ltbtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="btn dropdown-toggle border-none hover:none ltbtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                       My Shopping Card
                     </button>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Action two</a></li>
+                      <li class="drop1">You have no items in your shopping cart</li>
+                      <li class="drop1">Subtotal: ৳ 0</li>
                     </ul>
                   </div>
             </div>
         </nav>
     </header>
     <!--header end-->
-    
+    <!-- section start -->
+    <main>
+        <!-- carousel strar -->
+        <div id="carouselExampleInterval" class="carousel slide container" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="Images/1-web 6.jpg" class="d-block w-100 crimg" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000"> 
+                <img src="Images/1-Web banner-min.jpg" class="d-block w-100 crimg" alt="...">
+              </div>
+              <div class="carousel-item" >
+                <img src="Images/1-web-5.jpeg" class="d-block w-100 crimg" alt="...">
+              </div>
+              <div class="carousel-item" > 
+                <img src="Images/1-web 4.jpg" class="d-block w-100 crimg" alt="...">
+              </div>
+            </div>
+          </div>
+        <!-- carousel end -->
+    </main>
+    <!-- section end -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
