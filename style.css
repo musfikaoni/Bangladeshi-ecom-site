@@ -70,7 +70,7 @@ header {
     margin-top: 82px;
 }
 /* carousel end */
-/* section-1 start */
+/* categories section start */
 .s1ico {
     border-bottom: 1px solid #00A651;
 }
@@ -105,4 +105,42 @@ header {
     font-size: 13px;
     color: #00A651;
 }
-/* section-1 end */
+/* categories section end */
+/* card section stard */
+.crd:hover {
+    border: 2px solid #00A651; 
+}
+.card-title a {
+    font-size: 13px;
+}
+.card-title a:hover {
+    color: #00A651;
+}
+.card-text {
+    font-size: 12px;
+    color: rgb(164, 164, 164);
+}
+.crdtx p {
+    font-size: 15px;
+    font-weight: bold;
+    color:#00A651;
+}
+.crdtx span {
+    margin-left: 60px;
+    color: rgb(164, 164, 164);
+    font-size: 15px;
+}
+.btxi {
+    color: #00A651;
+    font-size: 12px;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 5px;
+    padding: 7px 12px;
+}
+.eye:hover {
+    background-color: #00A651;
+}
+.ii {
+    color: rgb(237, 161, 18);
+}
+/* card section end */
