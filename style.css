@@ -66,6 +66,43 @@ header {
 /* header end */
 /* carousel start */
 .crimg {
-    height: 350px !important;
+    height: 330px !important;
+    margin-top: 82px;
 }
 /* carousel end */
+/* section-1 start */
+.s1ico {
+    border-bottom: 1px solid #00A651;
+}
+.s1ico:hover {
+    border: 1px solid #00A651;
+    border-bottom: none;
+}
+.s1ico img {
+    height: auto;
+    width: 40%;
+    display: grid;
+    margin-left: 40px;
+}
+.s1ico a {
+    font-size: 13px;
+
+}
+.s1ico a:hover {
+    color: #00A651;
+}
+#icoo {
+    border: 1px solid #00A651;
+    border-bottom: none;
+}
+#icoo img {
+    height: auto;
+    width: 40%;
+    display: grid;
+    margin-left: 40px;
+}
+#icoo a {
+    font-size: 13px;
+    color: #00A651;
+}
+/* section-1 end */
